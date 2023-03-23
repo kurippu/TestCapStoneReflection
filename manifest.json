@@ -1,0 +1,21 @@
+﻿{
+  "name": "Reflection Time",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+
+  },
+  "permissions": [
+    "storage"
+  
+  ],
+  "description": "Reflection prompts for journaling",
+  
+  "action": {
+    "default_title": "Reflection Time",
+    "default_popup": "dgo.html",
+    "default_icon":{
+      "160" : "rsz_138b7d3fb676ff0d31b80c7ac1819fbe.png"
+    }
+  }
+}

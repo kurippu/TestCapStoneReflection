@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edg  e" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reflection Extension</title>
+  </head>
+  <body>
+    <h1>Date: <input type="date" /> <br /></h1>
+
+    <label for="prompt1"> Prompt:</label>
+    <input
+      type="textbox"
+      size="60px"
+      id="prompt1"
+      placeholder="How was your day?"
+    />
+    <br>
+   How long would you like to keep prompt?
+    <input type="date" for="prompt1"> </input>
+    <input type="submit" for="prompt1"  />
+    <br />
+    <br />
+    <label for="reflect"> Reflection:</label> <br />
+
+    <textarea
+      name="text"
+      for="reflect"
+      cols="30"
+      rows="10"
+      placeholder="Type reflection here..." 
+    ></textarea>
+    <br>
+    
+    <button onclick = "NewTab()"> 
+      Open New Tab!
+    </button>
+    
+    <Script>
+      function NewTab(){
+        window.open( "_blank"
+        );
+      }
+    </Script>
+    <input type="submit" for="reflect" />
+  </body>
+</html>
